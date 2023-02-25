@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+    <style>
+        * {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+    </style>
+</head>
+<body>
+    <h1>Teste de Formulário</h1>
+    <form action="cadastrop.php" method="get" autocomplete="on">
+        <p>
+            <label for="iNome">Nome</label>
+            <input type="text" name="nNome" id="iNome" required maxlength="30" placeholder="Nome completo" autocomplete="name">
+        </p>    
+        <p>
+            <label for="iMedia">Média</label>
+            <input type="number" name="nMedia" id="iMedia" min="0" max="10" placeholder="0 a 10" step="0.1" required>
+        </p>
+        <p>
+            <label for="iMes">Período Letivo</label>
+            <input type="month" name="nMes" id="iMes" value="2023-02">
+        </p>
+        <p>
+            <label for="iData">Dia da Prova</label>
+            <input type="date" name="nData" id="iData" value="2023-02-04">
+        </p>
+        <p>
+            <label for="iHora">Horário da Prova</label>
+            <input type="time" name="nHora" id="iHora" value="2023-02-04">
+        </p>
+        <p>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Limpar">
+        </p>    
+    </form>
+</body>
+</html>

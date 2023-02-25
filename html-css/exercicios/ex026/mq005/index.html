@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Media Query</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="style/style.css">
+    <link rel="stylesheet" href="style/media-query.css">
+</head>
+<body onresize="mudouTamanho()">
+    <header>
+        <h1>Meu Site</h1>
+        <i id="burger" class="material-icons" onclick="clickMenu()">menu</i>
+        <menu id="iMenu">
+            <ul>
+                <li><a href="#">Opção 1</a></li>
+                <li><a href="#">Opção 2</a></li>
+                <li><a href="#">Opção 3</a></li>
+                <li><a href="#">Opção 4</a></li>
+                <li><a href="#">Opção 5</a></li>
+            </ul>
+        </menu>
+    </header>
+    <main>
+        <article>
+            <h2>Testando Media Queries</h2>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptate, delectus deleniti, omnis, repellendus eveniet veritatis perspiciatis quia eligendi praesentium nihil officia consequatur. Debitis, aliquam adipisci provident corporis autem molestias nisi odio architecto excepturi corrupti atque aut quisquam repellendus repudiandae aliquid eveniet impedit ex, nesciunt eos quaerat doloremque laborum tempora! Illum eum, ratione, corporis alias delectus cum soluta in commodi odio non nesciunt saepe facilis magnam quos minima recusandae eius blanditiis iste quasi eligendi rerum sed. Omnis consequuntur eligendi et assumenda, voluptas libero veniam quos nesciunt odio rem velit pariatur possimus consequatur distinctio! Excepturi iure ratione, distinctio expedita molestias eos praesentium.
+            </p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus autem voluptas veniam ab veritatis vitae aperiam iusto saepe reiciendis aliquam, excepturi, nesciunt illum dolores maiores. Praesentium asperiores illo, quasi voluptas magni atque cupiditate corporis eos porro, consequatur consequuntur! Unde incidunt est, odit molestias reprehenderit hic quod error illum, vitae inventore quaerat esse dicta molestiae quidem nulla commodi maxime similique. Explicabo quibusdam eius fugiat dolores tempora officia, recusandae rem repellat, quasi placeat tempore minima ex nam, reprehenderit unde. Ea magni eius, doloremque ullam praesentium ab. Magnam suscipit rerum temporibus explicabo, voluptas similique excepturi ducimus asperiores dignissimos maxime perspiciatis, nulla illo impedit.</p>
+        </article>
+    </main>
+
+    <script>
+
+        function mudouTamanho() {
+            if (window.innerWidth >= 768) {
+                iMenu.style.display = 'block'
+            } else if (window.innerWidth < 768) {
+                iMenu.style.display = 'none'
+            }
+        }
+
+        function clickMenu() {
+            if (iMenu.style.display == 'none') {
+                iMenu.style.display = 'block'
+            } else {
+                iMenu.style.display = 'none'
+            }
+            
+        }
+    </script>
+</body>
+</html>

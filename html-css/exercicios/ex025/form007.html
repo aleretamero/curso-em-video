@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+    <style>
+        * {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+    </style>
+</head>
+<body>
+    <h1>Exemplo de Formulário</h1>
+    <form action="cadastro.php" method="get" autocomplete="on">
+        <p>
+            <label for="iEstado">Estado</label>
+            <select name="nEstado" id="iEstado">
+
+                <option value="" selected>--- Escolha ---</option>
+
+                <optgroup label="Região Sudeste">
+                    <option value="MG">Minas Gerais</option>
+                    <option value="SP">São Paulo</option>
+                    <option value="RJ">Rio de janeiro</option>
+                </optgroup>
+
+                <optgroup label="Região Nordeste">
+                    <option value="MA">Maranhão</option>
+                    <option value="PE">Pernambuco</option>
+                    <option value="SP">São Paulo</option>
+                </optgroup>
+            </select>
+        </p>
+        <p>
+            <label for="iProfissao">Profissão:</label>
+            <input type="text" name="nProfissao" id="iProfissao" list="listProfissao">
+            <datalist id="listProfissao">
+                <option value="">Administrador</option>
+                <option value="">Contador</option>
+                <option value="">Desenvolvedor</option>
+                <option value="">Professor</option>
+            </datalist>
+        </p>
+        <p>
+            <label for="iMensagem">Mensagem:</label><br>
+            <textarea name="nMensagem" id="iMensagem" cols="30" rows="10" placeholder="Sua mensagem aqui..."></textarea>
+        </p>
+        <p>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Limpar">
+        </p>
+    </form>
+</body>
+</html>

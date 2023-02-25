@@ -1,0 +1,167 @@
+@charset "UTF-8";
+
+/*
+    Paleta de cores
+    Verde: #49a09d
+    Lilás: #5f2c82
+*/
+
+
+/*Reset*/
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 1em;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+/*mobile first*/
+
+body, html {
+    background-color: #5f2c82;
+}
+
+main {
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+}
+
+section#areaLogin {
+    background-color: white;
+    width: 250px;
+    height: 500px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.500);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    overflow: hidden;
+    transform: translate(-50%, -50%);
+    /* animação
+    transition: width 0.1s, heigt 0.1s;
+    transition-timing-function: ease;
+    */
+}
+
+div#imagem {
+    display: block;
+    background: #5f2c82 url(../images/back-ground.jpg) no-repeat;
+    background-size: cover;
+    height: 200px;
+}
+
+div#formulario {
+    display: block;
+    padding: 10px;
+}
+
+div#formulario > h1 {
+    text-align: center;
+    margin-bottom: 10px;
+    font-size: 1.5em;
+}
+
+div#formulario > p {
+    font-size: 0.9em;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.campo {
+    background-color: #5f2c82;
+    display: block;
+    margin: auto;
+    width: 100%;
+    height: 25%;
+    padding-left: 5px;
+    border-radius: 10px 10px 10px 10px;
+    margin-bottom: 5px;
+}
+
+
+/*icones*/
+.campo > label > span {
+    font-size: 1.5em;
+    width: 50px;
+    height: 100%;
+    display: inline;
+    color: white;
+}
+
+/*Caixa login/senha*/
+.campo > input {
+    background-color: #62d7d3;
+    font-size: 1.4em;
+    display: inline;
+    height: 100%;
+    border: 1px solid #5f2c82;
+    border-radius: 10px;
+    width: calc(100% - 29px);
+}
+
+.campo > input:focus-within {
+    background-color: white;
+}
+
+.oculto {
+    display: none;
+}
+
+/*botões*/
+
+div.botoes {
+    height: 30%;
+}
+
+/*botão entrar*/
+form input[type=submit] {
+    display: block;
+    font-size: 1em;
+    width: 100%;
+    height: 40px;
+    color: white;
+    background-color: #347471;
+    margin: auto;
+    margin-top: 20px;
+    padding: 5px;
+    border: 1px solid #25514f;
+    border-radius: 5px 15px 15px 15px;
+}
+
+form input[type=submit]:hover {
+    background-color: #25514f;
+    color: #62d7d3;;
+    cursor: pointer;
+}
+
+/*botão esqueci a senha*/
+.botao {
+    display: block;
+    font-size: 1em;
+    width: 100%;
+    height: 40px;
+    color: #25514f;
+    background-color: #62d7d3;
+    margin: auto;
+    margin-top: 10px;
+    padding: 5px;
+    text-align: center;
+    border: 1px solid #25514f;
+    border-radius: 5px 15px 15px 15px;
+}
+
+.botao span {
+    font-size: 1.2em;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.botao:hover {
+    background-color: #25514f;
+    color: #62d7d3;
+    cursor: pointer;
+}
