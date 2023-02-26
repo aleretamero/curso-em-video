@@ -4,7 +4,7 @@
 
 <ul>
   <li><a href="https://aleretamero.github.io/curso-em-video/html-css/desafios/d001/">#01</a> - Desafio das Mensagens</li>
-  <li><a href="https://aleretamero.github.io/curso-em-video/html-css/desafios/d002/">#02</a> - Desafio das Imagens/li>
+  <li><a href="https://aleretamero.github.io/curso-em-video/html-css/desafios/d002/">#02</a> - Desafio das Imagens</li>
   <li><a href="https://aleretamero.github.io/curso-em-video/html-css/desafios/d003/">#03</a> - Desafio do Mapa Mundi</li>
   <li><a href="https://aleretamero.github.io/curso-em-video/html-css/desafios/d004/">#04</a> - Meus Emojis Favoritos</li>
   <li><a href="https://aleretamero.github.io/curso-em-video/html-css/desafios/d005/">#05</a> - Meu Perfil Social</li>
