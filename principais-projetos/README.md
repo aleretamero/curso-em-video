@@ -2,10 +2,7 @@
  
  <br/>
  
- **projeto android →** Criando um site sobre a criação e evolução do personagem/mascote do Android.
- 
- <br/>
- 
+ **projeto android →** Criando um site sobre a criação e evolução do personagem/mascote do Android. 
 > ![](../images/badges/html.svg)![](../images/badges/css.svg) 
 >> [clique aqui](https://aleretamero.github.io/curso-em-video/principais-projetos/projeto-android/) para acessar o projeto android.
 >>> [clique aqui](./projeto-android/) para acessar o diretório do projeto.
