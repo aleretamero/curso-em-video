@@ -17,3 +17,5 @@
   <li><a href="https://aleretamero.github.io/curso-em-video/html-css/desafios/d012/">#12</a> - Desafio do Cordel</li>
   <li><a href="https://aleretamero.github.io/curso-em-video/html-css/desafios/d013/">#13</a> - Desafio Redes Sociais</li>
 </ul>
+
+<h2>Exercícios</h2>
