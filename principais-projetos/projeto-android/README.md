@@ -3,8 +3,8 @@
 <br/>
  
  **projeto android →** Criando um site sobre a criação e evolução do personagem/mascote do Android, ministrado pelo Curso em Vídeo.
-> ![](../images/html.svg)![](../images/css.svg)
->> [clique aqui](https://aleretamero.github.io/principais-projetos-curso-em-video/projeto-android/) para acessar o projeto android.
+> ![](../../images/badges/html.svg)![](../../images/badges/css.svg) 
+>> [clique aqui](https://aleretamero.github.io/curso-em-video/principais-projetos/projeto-android/) para acessar o projeto android.
 
 <br/>
 
