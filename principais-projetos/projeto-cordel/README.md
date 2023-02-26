@@ -3,8 +3,8 @@
 <br/>
 
  **projeto cordel →** Criando um projeto do cordel de Milton Duarte, ministrado pelo Curso em Vídeo.
-> ![](../images/html.svg)![](../images/css.svg)
->> [clique aqui](https://aleretamero.github.io/principais-projetos-curso-em-video/projeto-cordel/) para acessar o projeto cordel.
+> ![](../../images/badges/html.svg)![](../../images/badges/css.svg)
+>> [clique aqui](https://aleretamero.github.io/curso-em-video/principais-projetos/projeto-cordel/) para acessar o projeto cordel.
 
 <br/>
 
