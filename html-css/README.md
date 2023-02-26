@@ -18,8 +18,9 @@
   <li><a href="https://aleretamero.github.io/curso-em-video/html-css/desafios/d011/">#11</a> - Desafio do Astronauta</li>
   <li><a href="https://aleretamero.github.io/curso-em-video/html-css/desafios/d012/">#12</a> - Desafio do Cordel</li>
   <li><a href="https://aleretamero.github.io/curso-em-video/html-css/desafios/d013/">#13</a> - Desafio Redes Sociais</li>
-  <li><a href="https://aleretamero.github.io/curso-em-video/html-css/desafios/d014/">#14</a> - Desafio Tabelas-1</li>
-  <li><a href="https://aleretamero.github.io/curso-em-video/html-css/desafios/d015/">#15</a> - Desafio Tabelas-2</li>
+  <li><a href="https://aleretamero.github.io/curso-em-video/html-css/desafios/d014/tabela01.html">#14</a> - Desafio Tabelas-1</li>
+  <li><a href="https://aleretamero.github.io/curso-em-video/html-css/desafios/d014/tabela02.html">#14</a> - Desafio Tabelas-2</li>
+  <li><a href="https://aleretamero.github.io/curso-em-video/html-css/desafios/d015/">#15</a> - Desafio Tabelas-3</li>
 </ul>
 
 <br>
