@@ -5,16 +5,16 @@
 <h2>Exercícios no Terminal</h2>
 
 <ul>
-  <li><a href="./exercicios/ex-js001/">#01</a> - if</li>
-  <li><a href="./exercicios/ex-js002/">#02</a> - if, else</li>
-  <li><a href="./exercicios/ex-js003/">#03</a> - if, else if, else</li>
-  <li><a href="./exercicios/ex-js004/">#04</a> - new Date</li>
-  <li><a href="./exercicios/ex-js005/">#05</a> - swithc</li>
-  <li><a href="./exercicios/ex-js006/">#06</a> - while, do while</li>
-  <li><a href="./exercicios/ex-js007/">#07</a> - for</li>
-  <li><a href="./exercicios/ex-js008/">#08</a> - array</li>
-  <li><a href="./exercicios/ex-js009/">#07</a> - function</li>
-  <li><a href="./exercicios/ex-js010/">#08</a> - object</li>
+  <li><a href="./exercicios/ex-js001/main.js">#01</a> - if</li>
+  <li><a href="./exercicios/ex-js002/main.js">#02</a> - if, else</li>
+  <li><a href="./exercicios/ex-js003/main.js">#03</a> - if, else if, else</li>
+  <li><a href="./exercicios/ex-js004/main.js">#04</a> - new Date</li>
+  <li><a href="./exercicios/ex-js005/main.js">#05</a> - swithc</li>
+  <li><a href="./exercicios/ex-js006/main.js">#06</a> - while, do while</li>
+  <li><a href="./exercicios/ex-js007/main.js">#07</a> - for</li>
+  <li><a href="./exercicios/ex-js008/main.js">#08</a> - array</li>
+  <li><a href="./exercicios/ex-js009/main.js">#07</a> - function</li>
+  <li><a href="./exercicios/ex-js010/main.js">#08</a> - object</li>
 </ul>
 
 <br>
