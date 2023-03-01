@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Soma</title>
+    <style>
+      body {
+        background-color: rgb(187, 187, 255);
+        color: rgb(241, 28, 28);
+        font: normal 20pt Arial;
+      }
+      h1 {
+        color: rgb(255, 212, 22);
+      }
+      p {
+        color: black;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Soma</h1>
+    <p>Realizando a soma de 2 números recebidos pelo prompt!</p>
+    <script>
+      var n1 = Number.parseInt(window.prompt("Digite um número: "));
+      var n2 = Number.parseInt(window.prompt("Digite outro número: "));
+      var s = n1 + n2;
+      window.alert(`A soma enter ${n1} e ${n2} é igual a ${s}`);
+    </script>
+  </body>
+</html>
